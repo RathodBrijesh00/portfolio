@@ -1,0 +1,337 @@
+@font-face {
+    font-family: juana regular;
+    src: url(Fontspring-DEMO-juana-medium.otf);
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(20px);
+    }
+
+    50% {
+
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+/* .border1 {border: 5px solid red;} */
+/* .border2 {border: 5px solid green;} */
+.border5 {
+    border: 0.5px solid rgba(163, 163, 163, 0.466);
+}
+
+/* .border4 {border: 5px solid orange;} */
+.heightfirst {
+    min-height: 700px;
+}
+
+.heighteight {
+    min-height: 500px;
+}
+
+.heightcard {
+    height: 200px;
+}
+
+.heightcard2 {
+    height: 450px;
+}
+
+.headsize {
+    font-size: 90px;
+    font-family: juana regular;
+    width: 90%;
+}
+
+.headsizesixth {
+    font-size: 70px;
+    font-family: juana regular;
+    width: 80%;
+    text-align: center;
+}
+
+.headsizesecond {
+    font-size: 70px;
+    font-family: juana regular;
+    width: 70%;
+    color: white;
+}
+
+.headsizeseventh {
+    font-size: 70px;
+    font-family: juana regular;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.headsizethird {
+    font-size: 70px;
+    font-family: juana regular;
+    width: 80%;
+    color: white;
+}
+
+.headsizefourth {
+    font-size: 70px;
+    font-family: juana regular;
+    width: 92%;
+    color: rgb(0, 0, 0);
+}
+
+.h4size {
+    color: orange;
+    font-weight: 400;
+}
+
+.lefth5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 1.3%;
+    margin-left: 2%;
+}
+
+.para {
+    width: 70%;
+}
+
+.parafourth {
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.parasixth {
+    font-size: 25px;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+}
+
+.spanni {
+    font-size: 30px;
+    color: orange;
+    font-weight: 500;
+}
+
+.spannixhead {
+    font-size: 40px;
+    color: black;
+    font-family: juana regular;
+}
+
+.buttonround {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+
+.buttonsecond {
+    width: 300px;
+    height: 50px;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    background: url(intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+}
+
+.box2 {
+    width: 420px;
+    height: 500px;
+    background-color: white;
+    background: url(aiony-haust-3TLl_97HNJo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+}
+
+.cc {
+    transition: .2s all linear;
+}
+
+.cc:hover {
+    background-color: rgb(255, 201, 218);
+    transition: .2s all linear;
+}
+
+.borderme {
+    border-right: 2px solid rgba(163, 163, 163, 0.466);
+}
+
+.bordermeleft {
+    border-left: 2px solid rgba(163, 163, 163, 0.466);
+}
+
+.bordermetop {
+    border-top: 2px solid rgba(163, 163, 163, 0.466);
+}
+
+.bordermebottom {
+    border-bottom: 2px solid rgba(163, 163, 163, 0.466);
+}
+
+.testimonialheight {
+    min-height: 400px;
+}
+
+.testimonialheight1 {
+    min-height: 500px;
+}
+
+.bottomheight {
+
+    min-height: 200px;
+}
+
+.h4card {
+
+    font-size: 15px;
+    color: orange;
+}
+
+.h2card {
+
+    font-size: 30px;
+    color: white;
+    font-family: juana regular;
+}
+
+.paracard {
+
+    font-size: 19px;
+    color: white;
+    width: 95%;
+    /* font-family: juana regular; */
+}
+
+.h1eight {
+
+    font-size: 40px;
+    color: white;
+    font-family: juana regular;
+}
+
+.peight {
+
+    font-size: 20px;
+    color: white;
+    width: 80%;
+
+    /* font-family: juana regular; */
+}
+
+.ulmargin {
+
+    margin-top: -140px;
+}
+
+.paramargin {
+
+    margin-top: -120px;
+}
+
+.form-control {
+
+    color: orange;
+}
+
+.cc2 {
+    color: gray;
+    transition: all .3s linear;
+
+}
+
+.cc2:hover {
+
+    color: white;
+    transition: all .3s linear;
+}
+
+.cc3 {
+
+    color: gray;
+    transition: all .3s linear;
+}
+
+.cc3:hover {
+
+    color: white;
+    transition: all .3s linear;
+}
+
+.navbar {
+
+    background-color: black !important;
+}
+
+.navbar-brand {
+
+    color: white !important;
+}
+
+.collapse {
+
+    color: white !important;
+}
+
+
+.nav-link {
+
+    color: gray !important;
+
+}
+
+.nav-link:hover {
+
+    color: white !important;
+}
+
+.card-con-1 {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+    padding: 0 !important;
+    /* border: 2px solid red !important; */
+}
+
+.form-control {
+
+    width: 325px !important;
+    max-width: 320px !important;
+}
+
+.container {
+
+    overflow: hidden !important;
+}
+
+.hehehe {
+
+
+    font-size: 70px;
+    font-family: juana regular;
+    width: 80%;
+    text-align: center;
+}
+.fs-10 {
+    font-size: 70px;
+}
+
+/* @media only screen and (max-width:480px) {
+
+
+    .hehehe {
+        font-size: 40px;
+    }
+} */
